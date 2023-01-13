@@ -79,7 +79,7 @@ async function getData() {
     showMessage(searchResult, page, pages);
     return searchResult.hits;
   } catch (error) {
-    console.log('error :>> ', error.message);
+    console.log('error :', error.message);
   }
 }
 
